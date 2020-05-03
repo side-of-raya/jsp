@@ -1,0 +1,7 @@
+model/Pet.class
+DAO/UpdateArgs.class
+model/Man.class
+DAO/MenDAO.class
+DAO/Client.class
+daoApp/App.class
+DAO/PetsDAO.class
