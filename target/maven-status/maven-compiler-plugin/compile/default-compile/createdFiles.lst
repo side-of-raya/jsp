@@ -1,5 +1,6 @@
 model/Pet.class
 DAO/UpdateArgs.class
+controllers/getMen.class
 model/Man.class
 DAO/MenDAO.class
 DAO/Client.class

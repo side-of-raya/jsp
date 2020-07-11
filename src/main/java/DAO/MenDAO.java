@@ -25,6 +25,7 @@ public class MenDAO {
     List<Man> result = new ArrayList<>();
     ResultSet rs = client.getRows("SELECT * FROM men");
     while (rs.next()) {
+      System.out.print(rs.getString("name"));
       man.setName(rs.getString("name"));
       man.setAge(rs.getInt("age"));
       result.add(man);

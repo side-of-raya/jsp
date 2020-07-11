@@ -73,7 +73,7 @@ public class Client {
   {
     try (
       Connection con = DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/test_local", "god", "fser")
+        "jdbc:mysql://localhost:3306/walking", "god", "fser")
     ) {
       try (
         Statement stmt = con.createStatement();

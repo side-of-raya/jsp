@@ -3,8 +3,8 @@ package model;
 import java.util.ArrayList;
 
 public class Man {
-    private String name;
-    private int age;
+    public String name;
+    public int age;
     private ArrayList<Pet> pets;
     public String getName() {
         return name;
